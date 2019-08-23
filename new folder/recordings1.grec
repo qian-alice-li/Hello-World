@@ -1,0 +1,25 @@
+StataFileTM:00001:01100:GREC:                          :
+00006:00006:00001:
+*! classname: bargraph_g
+*! family: bar
+*! date: 22 Aug 2019
+*! time: 17:16:24
+*! graph_scheme: s2color
+*! naturallywhite: 1
+*! end
+
+// File created by Graph Editor Recorder.
+// Edit only if you know what you are doing.
+
+.style.editstyle boxstyle(shadestyle(color(white))) editcopy
+// Graph color
+
+.plotregion1.bars[1].style.editstyle shadestyle(color(eltblue)) editcopy
+.plotregion1.bars[1].style.editstyle linestyle(color(eltblue)) editcopy
+// bars[1] color
+
+.grpaxis.style.editstyle majorstyle(tickangle(forty_five)) editcopy
+// grpaxis angle
+
+
+// <end>
