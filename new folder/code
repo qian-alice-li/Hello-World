@@ -1,0 +1,10 @@
+keep X14 X308 X4112 X5931 X6809 X7401 X6670
+gen Age="0"
+replace Age = "HOH<25" if X14>0&X14<25
+replace Age = "HOH25-44" if X14>=25&X14<=34
+replace Age = "HOH35-54" if X14>=35&X14<=54
+replace Age = "HOH55-64" if X14>=55&X14<=64
+replace Age = "HOH65+" if X14>=65
+gen Race = "0"
+replace Race="White" if X6809==1 
+replace Race="Black" if X6809==2 
