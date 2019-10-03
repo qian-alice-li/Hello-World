@@ -8,3 +8,4 @@ replace Age = "HOH65+" if X14>=65
 gen Race = "0"
 replace Race="White" if X6809==1 
 replace Race="Black" if X6809==2 
+#cdhc
